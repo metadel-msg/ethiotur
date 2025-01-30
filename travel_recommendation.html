@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendations</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div>
+            <input type="text" id="searchInput" placeholder="Search for recommendations...">
+            <button id="searchButton">Search</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to Travel Recommendations</h1>
+            <p>Discover the best travel destinations around the world. Whether you're looking for adventure, relaxation, or cultural experiences, we've got you covered!</p>
+        </div>
+         <!-- Display search results -->
+         <div id="recommendationResults"></div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>We are a team of travel enthusiasts dedicated to helping you discover amazing places around the world.</p>
+        </div>
+
+        <!-- Team Section -->
+        <div class="team-content">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>John Doe</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <h3>Jane Smith</h3>
+                    <p>Lead Travel Consultant</p>
+                </div>
+                <div class="team-member">
+                    <h3>Michael Johnson</h3>
+                    <p>Marketing & PR Manager</p>
+                </div>
+                <div class="team-member">
+                    <h3>Emily Davis</h3>
+                    <p>Content Creator & Blogger</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section with Form -->
+    <section id="contact">
+        <div class="contact-content">
+            <h1>Contact Us</h1>
+            <p>Have questions or need recommendations? Reach out to us!</p>
+            <p>Email: travel@recommendations.com</p>
+
+            <!-- Contact Form -->
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Link to external JavaScript file -->
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
